@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public class tugas1 {
     public static void main(String[] args) {
-
 
         String admin_uname = "Admin013";
         String admin_pass = "password013";
@@ -36,6 +35,8 @@ public class Main {
                 int password = menu.nextInt();
                 if (username.equals(nama) && password==nim) {
                     System.out.println("Login Mahasiswa Berhasil");
+                    System.out.println("Nama: " + nama);
+                    System.out.println("NIM: " + nim);
                     break;
                 } else {
                     System.out.println("Login Gagal! Nama atau NIM salah");
