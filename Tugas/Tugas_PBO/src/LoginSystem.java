@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LoginSystem {
     public static void main(String[] args) {
 
-        Mahasiswa mahasiswa = new Mahasiswa();
+        Student student = new Student();
         Admin admin = new Admin();
         Scanner menu = new Scanner(System.in);
 
@@ -20,8 +20,8 @@ public class LoginSystem {
                     break;
 
                 case 2:
-                    mahasiswa.login();
-                    mahasiswa.displayInfo();
+                    student.login();
+                    student.displayInfo();
                     break;
 
                 default:

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Mahasiswa {
+public class Student{
     String name = "Fery Pratama";
     int nim = 8560013;
 
