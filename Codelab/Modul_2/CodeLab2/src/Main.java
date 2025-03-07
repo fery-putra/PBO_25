@@ -1,28 +1,28 @@
 public class Main {
     public static void main(String[] args) {
 
-        RekeningBank rekening1=new RekeningBank();
-        RekeningBank rekening2=new RekeningBank();
+        BankAccount account1=new BankAccount();
+        BankAccount account2=new BankAccount();
 
-        rekening1.nomorRekening="08560013";
-        rekening1.namaPemilik="Fery";
-        rekening1.saldo=20000000;
+        account1.accountNumber ="08560013";
+        account1.accountName ="Fery";
+        account1.balance =100000;
 
-        rekening2.nomorRekening="08560426";
-        rekening2.namaPemilik="Fera";
-        rekening2.saldo=20000000;
+        account2.accountNumber ="08560426";
+        account2.accountName ="Fera";
+        account2.balance =100000;
 
-        rekening1.tampilkanInfo();
-        rekening2.tampilkanInfo();
+        account1.showInfo();
+        account2.showInfo();
 
+        System.out.println();
+        account1.deposit(200000);
+        account2.deposit(200000);
+        System.out.println();
+        account1.withdraw(200000);
+        account2.withdraw(400000);
 
-        rekening1.setorUang(200000);
-        rekening2.setorUang(200000);
-
-        rekening1.tarikUang(100000);
-        rekening2.tarikUang(100000);
-
-        rekening1.tampilkanInfo();
-        rekening2.tampilkanInfo();
+        account1.showInfo();
+        account2.showInfo();
     }
 }

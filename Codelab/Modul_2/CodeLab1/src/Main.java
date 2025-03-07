@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        Hewan hewan1 = new Hewan();
-        Hewan hewan2 = new Hewan();
+        Animal animal1 = new Animal();
+        Animal animal2 = new Animal();
 
-        hewan1.nama="Kucing";
-        hewan1.jenis="Mamalia";
-        hewan1.suara="Nyann~~";
+        animal1.name ="Cat";
+        animal1.classification ="Mammals";
+        animal1.voice="Meow~~";
 
-        hewan2.nama="Anjing";
-        hewan2.jenis="Mamalia";
-        hewan2.suara="Woof-Woof!!";
+        animal2.name ="Dog";
+        animal2.classification ="Mammals";
+        animal2.voice="Woof-Woof!!";
 
-        hewan1.tampilkanInfo();
+        animal1.showInfo();
 
-        hewan2.tampilkanInfo();
+        animal2.showInfo();
     }
 }
