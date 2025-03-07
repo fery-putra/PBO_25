@@ -13,18 +13,21 @@ public class LoginSystem {
             System.out.println("2. Student");
             System.out.println("Input Choice : ");
             int choice =menu.nextInt();
-            if (choice == 1) {
-              admin.login();
 
-            }
-            else if (choice == 2) {
-              mahasiswa.login();
-              mahasiswa.displayInfo();
+            switch (choice) {
+                case 1:
+                    admin.login();
+                    break;
 
-            }
-            else {
-                System.out.println("Input invalid");
-                break;
+                case 2:
+                    mahasiswa.login();
+                    mahasiswa.displayInfo();
+                    break;
+
+                default:
+                    System.out.println("Invalid Choice");
+                    System.exit(0);
+
             }
 
 
