@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codelab/Modul_2/CodeLab1/CodeLab1.iml" filepath="$PROJECT_DIR$/Codelab/Modul_2/CodeLab1/CodeLab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codelab/Modul_2/CodeLab2/CodeLab2.iml" filepath="$PROJECT_DIR$/Codelab/Modul_2/CodeLab2/CodeLab2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codelab/Modul_2/Modul_2.iml" filepath="$PROJECT_DIR$/Codelab/Modul_2/Modul_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/PBO_25.iml" filepath="$PROJECT_DIR$/PBO_25.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas_PBO.iml" filepath="$PROJECT_DIR$/Tugas/Tugas_PBO/Tugas_PBO.iml" />
